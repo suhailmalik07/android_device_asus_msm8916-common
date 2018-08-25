@@ -20,6 +20,8 @@ $(call inherit-product, vendor/asus/msm8916-common/msm8916-common-vendor.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay-lineage
+    
 
 # Permissions
 PRODUCT_COPY_FILES += \
